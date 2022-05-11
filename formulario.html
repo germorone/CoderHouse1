@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase02</title>
+    <link rel="shortcut icon" href="icono/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="icono/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Square+Peg&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+
+<body>
+
+    <header>
+        <div class="contenedor">
+
+            <a href="./index.html"><img src="images/spiderman-12-853x1024.png" width="50" height="50"
+                    alt="logo-Spiderman"></a>
+
+
+            <div class="redes-sociales">
+                <img src="./icono/fb.png" width="25" alt="">
+                <img src="./icono/ig.png" width="25" alt="">
+                <img src="./icono/lk.png" width="25" alt="">
+                <img src="./icono/tt.png" width="25" alt="">
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <main>
+        <nav>
+            <ul>
+                <li><a href="./marvel-box.html">Marvel-box</a></li>
+                <li><a href="./simpson-flexbox.html">Simpsons-flexbox</a></li>
+                <li><a href="./caballeros-grid.html">Caballeros-grid</a></li>
+                <li><a href="./formulario.html">Registrarse</a></li>
+           
+            </ul>
+        </nav>
+        <hr>
+        <h1>Formulario</h1>
+
+        <form action="">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre"><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido"><br>
+            <input type="email" placeholder="Email"><br>
+            <span>Hombre</span>
+            <input type="radio" name="sexo" value="hombre">
+            <span>Mujer</span>
+            <input type="radio" name="sexo" value="mujer"><br>
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea name="comentarios" id="" cols="30" rows="10"></textarea><br>
+            <span>Acepta TyC: </span>
+            <input type="checkbox" name="Acepta" value="1"><br>
+            <select name="Superheroe" id="superheroe">
+                <option value="">Seleccione superheroe</option>
+                <option value="Spiderman">Spiderman</option>
+                <option value="Batman">Batman</option>
+                <option value="Hulk">Hulk</option>
+                <option value="Iron Man">Iron Man</option>
+            </select>
+            <div>
+                <input type="submit" value="Enviar Formulario">
+                <input type="reset" value="Resetear">
+                <input type="button" value="Sin acciones">
+            </div>
+        </form>
+        <hr>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+
+</html>
